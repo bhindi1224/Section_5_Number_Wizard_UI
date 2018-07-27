@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 57326263}
   - component: {fileID: 57326262}
   m_Layer: 5
-  m_Name: Start Button
+  m_Name: Replay Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -147,8 +147,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -348, y: -323}
-  m_SizeDelta: {x: 432, y: 148.6}
+  m_AnchoredPosition: {x: -353.2, y: 32.3}
+  m_SizeDelta: {x: 442.5, y: 213.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &57326262
 MonoBehaviour:
@@ -236,7 +236,7 @@ GameObject:
   - component: {fileID: 417358092}
   - component: {fileID: 417358091}
   m_Layer: 5
-  m_Name: WizardRick
+  m_Name: bhindiKid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -257,8 +257,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 402.5, y: 540.25}
-  m_SizeDelta: {x: 805, y: 1080.5}
+  m_AnchoredPosition: {x: 329.5, y: 540}
+  m_SizeDelta: {x: 659, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &417358091
 MonoBehaviour:
@@ -279,7 +279,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: be7d9afa53af39d42a04ed680c940999, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a03ffb2650b26eb4da2de4e7d948def1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -444,7 +444,7 @@ GameObject:
   - component: {fileID: 1100934186}
   - component: {fileID: 1100934185}
   m_Layer: 5
-  m_Name: StartButtonText
+  m_Name: ReplayText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -487,7 +487,9 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Start
+  m_text: 'Play
+
+    Again'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3fc2d3a7822802341b0f44fd599e441d, type: 2}
   m_sharedMaterial: {fileID: 21364412279671640, guid: 3fc2d3a7822802341b0f44fd599e441d,
@@ -526,7 +528,7 @@ MonoBehaviour:
   m_isAlignmentEnumConverted: 1
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: 6.25
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -556,12 +558,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 0}
-    characterCount: 5
+    characterCount: 10
     spriteCount: 0
-    spaceCount: 0
-    wordCount: 1
+    spaceCount: 1
+    wordCount: 2
     linkCount: 0
-    lineCount: 1
+    lineCount: 2
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
