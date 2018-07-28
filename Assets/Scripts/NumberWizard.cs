@@ -6,7 +6,7 @@ using TMPro;
 public class NumberWizard : MonoBehaviour {
     [SerializeField] int max;
     [SerializeField] int min;
-    [SerializeField] TextMeshProUGUI guessText;
+    [SerializeField] TextMeshProUGUI guessText; 
     int guess;
 
 	// Use this for initialization
