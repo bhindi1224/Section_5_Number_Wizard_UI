@@ -12,16 +12,10 @@ public class NumberWizard : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
     {
-        StartGame();
+        max += 1;
+        NextGuess();
 	}
 
-    void StartGame()
-    {
-        guess = (max + min) / 2;
-        guessText.text = guess.ToString();
-        max += 1;
-    }
-	
     public void OnPressHigher()
     {
         min = guess;
@@ -36,7 +30,11 @@ public class NumberWizard : MonoBehaviour {
 
     void NextGuess()
     {
-        guess = (max + min) / 2;
+        if (min == max)
+        {
+            return;
+        }
+        guess = Random.Range( min, max);
         guessText.text = guess.ToString();
     }
 
